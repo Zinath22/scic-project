@@ -1,3 +1,5 @@
+import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -8,7 +10,9 @@ const Banner = () => {
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
      
-      <button className="btn btn-primary">Let’s Explore</button>
+      <Link to={"dashboard"}><button className="btn btn-primary">Let’s Explore <FaArrowRight /></button>
+      
+      </Link>
     </div>
   </div>
 </div>
