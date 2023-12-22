@@ -44,14 +44,14 @@ const PostTask = () => {
             <textarea id="taskDescription" name="description" value={task.description} onChange={handleChange} placeholder="Enter task description" className="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"></textarea>
           </div>
   
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <label htmlFor="taskPriority" className="block text-gray-700 font-semibold mb-2">Priority</label>
             <select id="taskPriority" name="priority" value={task.priority} onChange={handleChange} className="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500">
               <option value="low">Low</option>
               <option value="medium">Medium</option>
               <option value="high">High</option>
             </select>
-          </div>
+          </div> */}
   
           <div className="mb-4">
             <label htmlFor="dueDate" className="block text-gray-700 font-semibold mb-2">Due Date</label>
