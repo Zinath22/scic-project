@@ -8,7 +8,7 @@ const Dashboardnav = () => {
             <div className="w-64 min-h-screen bg-teal-500">
                 <ul className="menu m-7 ">
                     <Link to={"addTask"}><li className="text-2xl">Add task</li></Link>
-                    <li className="text-2xl">All task</li>
+                   <Link to={'ALltask'}> <li className="text-2xl">All task</li></Link>
                 </ul>
         </div>
         </div>

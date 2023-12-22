@@ -13,7 +13,7 @@ const Banner = () => {
       <Link to={"dashboard"}><button className="btn btn-primary">Let’s Explore <FaArrowRight /></button>
       
       </Link>
-      <Link to={"/login"}><button>login</button></Link>
+      {/* <Link to={"/login"}><button>login</button></Link> */}
     </div>
   </div>
 </div>
