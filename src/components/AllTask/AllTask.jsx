@@ -8,7 +8,7 @@ function AllTask() {
 
   useEffect(() => {
     // Fetch data from the API
-    fetch('http://localhost:5000/task')
+    fetch('https://y-sigma-gilt.vercel.app/task')
       .then(response => response.json())
       .then(data => {
         // Set the fetched data to the state
